@@ -9,7 +9,6 @@ import { Box } from "./components/styles";
 
 import Example from "./assignments/example";
 import TodoApp from "./TodoApp.js";
-import Navigation from "./Navigation.js";
 
 function App() {
   return (
@@ -28,11 +27,14 @@ function App() {
 
 
       </Routes>
-      <nav>
-        <Link to="/example">Example</Link> |
-        <Link to="/TodoApp">TodoApp</Link>
-      </nav>
+    <Box>
+    <nav>
+    <Link to="/example">Example</Link> |
+    <Link to="/TodoApp">TodoApp</Link>
+    </nav>
+    </Box>
     </Router>
+    
   );
 
 }
