@@ -28,8 +28,8 @@ function App() {
 
       </Routes>
     <Box>
-    <nav>
-    <Link to="/example">Example</Link> |
+    <nav style={{ display: 'flex',  justifyContent: 'center', gap: '100px' }}>
+    <Link to="/example">Example</Link> 
     <Link to="/TodoApp">TodoApp</Link>
     </nav>
     </Box>
